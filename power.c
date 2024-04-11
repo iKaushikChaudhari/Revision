@@ -8,15 +8,11 @@ int main()
 		scanf("%d",&y);
 		x^y;
 		//3^4 = 81
-		
 		i = 0;
 		while(i<y)
 		{
-			
 			result = result * x;
 			i++;
 		}
-		
-		printf("\nPower of %d ^ %d is %d",x,y,result);
-		
+		printf("\nPower of %d ^ %d is %d",x,y,result);		
 	}
