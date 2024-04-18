@@ -11,7 +11,7 @@ int main (){
 	for(i=0;i<n;i++){
 		scanf("%d",&p[i]);
 	}
-	printf("\n Array pointer :");
+	printf("\nArray pointer :");
 	for(i=0;i<n;i++){
 		printf(" %d ",p[i]);
 	}
