@@ -11,7 +11,9 @@ int main (){
 	for(i=0;i<n;i++,p++){
 		scanf("%d",p);
 	}
+	
 	p--;
+	
 	printf("\nArray pointer :");
 	for(i=0;i<n;i++,p--){
 		printf(" %d ",*p);
