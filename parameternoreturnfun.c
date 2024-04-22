@@ -2,7 +2,6 @@
 #include<stdio.h>
 void add(int x, int y){
 	printf("Addition is: %d",(x+y));
-	
 }
 
 int main(){
