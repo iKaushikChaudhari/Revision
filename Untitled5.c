@@ -5,6 +5,7 @@ int main(){
 	printf("Enter A Name");
 	gets(name);
 	
-	printf("name :%s",name);
+	puts("/nName is : ");
+	puts(name);
 	return 0;
 }
