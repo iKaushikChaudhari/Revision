@@ -9,7 +9,7 @@ int main(){
 		if(a[i]>='a'&& a[i]<='z' || a[i]>='A'&& a[i]<='Z' ){
 			acnt++;
 		}
-		else if(a[i]>=0 && a[i]<=9){
+		else if(a[i]>='0' && a[i]<='9'){
 			dcnt++;
 		}
 		else{
