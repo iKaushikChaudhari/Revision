@@ -1,16 +1,17 @@
 #include<stdio.h>
+#include<ctype.h>
 int main(){
 	int acnt,scnt,dcnt;
 	char a[10];
 	int i;
+	acnt=scnt=dcnt=0;
 	printf("\nEnter The String :");
 	scanf("%s",a);
-	acnt=scnt=dcnt=0;
 	for(i=0;a[i]!='\0';i++){
-		if(a[i]>='a'&& a[i]<='z' || a[i]>='A'&& a[i]<='Z' ){
+		if(isalpha(a[i])){
 			acnt++;
 		}
-		else if(a[i]>='0' && a[i]<='9'){
+		else if(isdigit(a[i])){
 			dcnt++;
 		}
 		else{
