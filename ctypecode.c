@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<ctype.h>
 int main(){
-	int acnt,scnt,dcnt;
+	int acnt,scnt,dcnt,space;
 	char a[10];
 	int i;
-	acnt=scnt=dcnt=0;
+	space=acnt=scnt=dcnt=0;
 	printf("\nEnter The String :");
 	scanf("%s",a);
 	for(i=0;a[i]!='\0';i++){
@@ -13,6 +13,9 @@ int main(){
 		}
 		else if(isdigit(a[i])){
 			dcnt++;
+		}
+		else if(a[i]==' '){
+			space++;
 		}
 		else{
 			scnt++;
