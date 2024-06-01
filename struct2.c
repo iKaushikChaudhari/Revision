@@ -16,6 +16,7 @@ void accept(struct Student s1[100],int n){
 		scanf("%f",&s1[i].marks);
 	}
 }
+
 void display (struct Student s1[100],int n){
 	int i;
 	for (i=0;i<n;i++){
@@ -24,6 +25,7 @@ void display (struct Student s1[100],int n){
 		printf("\nMarks: %f",s1[i].marks);
 	}
 }
+
 int main(){
 	int n;
 	printf("\nEnter N: ");
@@ -31,6 +33,5 @@ int main(){
 	accept(s1,n);
 	display(s1,n);
 	return 0;
-	
 }
 
